@@ -5,6 +5,6 @@ app = FastAPI()
 
 @app.get("/health")
 def health():
-    return {"status": "ok4"}
+    return {"stats": "ok4"}
 
 handler = Mangum(app)
