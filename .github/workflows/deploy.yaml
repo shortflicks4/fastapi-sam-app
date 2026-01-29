@@ -36,5 +36,6 @@ jobs:
             --stack-name fastapi-sam-stack \
             --capabilities CAPABILITY_IAM \
             --resolve-s3 \
+            --capabilities CAPABILITY_IAM
             --no-confirm-changeset \
             --no-fail-on-empty-changeset
